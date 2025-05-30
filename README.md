@@ -9,7 +9,7 @@ Fork of [Xicro](https://github.com/imchin/Xicro) with patches for seamless compa
 
 ## Changes
 
-Modified .Xicro_node_preSetup.xicro to add automatic filtering of ROS 2 launch arguments (--ros-args) and to use parse_known_args() for argument parsing, ensuring generated Python nodes are fully compatible with ROS 2 launch files.
+30/5/2025 Modified .Xicro_node_preSetup.xicro to add automatic filtering of ROS 2 launch arguments (--ros-args) and to use parse_known_args() for argument parsing, ensuring generated Python nodes are fully compatible with ROS 2 launch files.
 
 ----
 Original readme:
