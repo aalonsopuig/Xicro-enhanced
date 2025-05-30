@@ -1,4 +1,14 @@
+# Xicro-enhanced
 
+Fork of [Xicro](https://github.com/imchin/Xicro) with patches for seamless compatibility with ROS 2 launch files.
+- Maintained by Alejandro Alonso Puig.
+- Adds support for launching generated Python nodes via `ros2 launch` without errors.
+- Intended for educational and research robotics projects (InMoov, etc.).
+
+> **Note:** All original credits to the Xicro authors. This fork will be updated as necessary for advanced ROS 2 usage.
+
+----
+Original readme:
 
 # xicro: Interface any-bit Microcontroller with ROS2
 
