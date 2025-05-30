@@ -17,6 +17,9 @@ import argparse
 import sys
 
 
+# Filter out any ROS-specific arguments passed by ros2 launch
+sys.argv = [sys.argv[0]] + [arg for arg in sys.argv[1:] if not arg.startswith('--ros-args')]
+
 
 
 
@@ -1441,7 +1444,8 @@ def set_args():
     global input
     input = argparse.ArgumentParser()
 !#@ gen_input_arg
-    input = input.parse_args()
+    input, _ = input.parse_known_args()
+
 
 
 def main():
